@@ -1,22 +1,19 @@
-# Data Processing & Visualization Tool
+# Data Processing & Visualization Tool: CLI-Based Data Cleaning & Exploration Tool for Noisy Real World CSV Data
 
-A Python tool that automatically cleans CSV datasets, removes null values, and creates beautiful visualizations.
+# Real World Problem
+Real world datasets often contain missing values, inconsistent schema, and unstandardized columns, which slows down exploratory data analysis and research workflows.
+
+# Short description
+A Python tool that automatically cleans CSV datasets, removes null values, and creates beautiful visualizations. This project was designed to mirror real-world data preprocessing pipelines used in academic and industry research. 
 
 ## Quick Start
-### Install from Source (For Development)
+### Install from Source (For Development And Use)
 ```bash
 git clone https://github.com/searifxr/DataCleanerPython-PIP
 cd DataCleaner
 pip install -e .
-datacleaner
 ```
 
-### Usage
-
-Place your CSV files anywhere in your project, then run:
-```bash
-datacleaner
-```
 
 The tool will:
 1. Find all CSV files in your project
@@ -54,7 +51,6 @@ DataCleaner/
 - pandas
 - matplotlib
 
-## For Developers
 
 ### Local Development
 
